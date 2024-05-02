@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "7545f695-de0d-4e72-bfcf-7a60eb50f3d0",
+		"name": "AUTH",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33999565",
+		"_collection_link": "https://www.postman.com/joint-operations-cosmonaut-33895797/workspace/chat-app/collection/33999565-7545f695-de0d-4e72-bfcf-7a60eb50f3d0?action=share&source=collection_link&creator=33999565"
+	},
+	"item": [
+		{
+			"name": "SIGNUP",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  //  fullName, username, password, confirmPassword, gender } = req.body;\r\n  \"fullName\":\"John Doe\",\r\n  \"username\":\"johndoe\",\r\n  \"password\":\"123456\",\r\n  \"confirmPassword\":\"123456\",\r\n  \"gender\":\"male\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/auth/signup",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

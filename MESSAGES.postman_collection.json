@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "e7581552-1d6d-43c9-bd73-3c551ec2afe5",
+		"name": "MESSAGES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33999565",
+		"_collection_link": "https://www.postman.com/joint-operations-cosmonaut-33895797/workspace/chat-app/collection/33999565-e7581552-1d6d-43c9-bd73-3c551ec2afe5?action=share&source=collection_link&creator=33999565"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https//:localhost:5000/api/auth/signup",
+					"host": [
+						"https"
+					],
+					"path": [
+						"",
+						":localhost:5000",
+						"api",
+						"auth",
+						"signup"
+					],
+					"variable": [
+						{
+							"key": "localhost:5000",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
