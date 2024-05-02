@@ -5,7 +5,8 @@
 - Error handling both on the server and on the client
 
 
-## Setup .env file:
+## Setup .env file: 
+change the port number and mongodb uri to your database uri
 ```dotenv
 PORT=...
 MONGO_DB_URI=...
@@ -14,10 +15,9 @@ NODE_ENV=...
 
 
 To build the app, run the following command in your terminal:
-```bash
 npm run build
 
-to run the app
+To start the app, run the following command in your terminal:
 npm start
 
 
